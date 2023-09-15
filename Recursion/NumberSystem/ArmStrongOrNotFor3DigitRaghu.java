@@ -2,7 +2,7 @@ package Recursion.NumberSystem;
 
 import java.util.Scanner;
 
-public class ArmStrongOrNotFor3Digit {
+public class ArmStrongOrNotFor3DigitRaghu {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter a number : ");
@@ -16,14 +16,13 @@ public class ArmStrongOrNotFor3Digit {
     }
 
     private static boolean isArmStrong(int n) {
-        return isArmStrong(n, n, 0, 0);
+        return isArmStrong(n, 0, n);
     }
 
-    private static boolean isArmStrong(int n, int temp, int sum, int d) {
+    private static boolean isArmStrong(int n, int sum, int temp) {
         if (n == 0)
             return sum == temp;
-        d = n % 10;
-        sum = sum + d * d * d;
-        return isArmStrong(n / 10, temp, sum, 0);
+        int d = n % 10;
+        return isArmStrong(n / 10, sum + d * d * d, temp);
     }
 }
