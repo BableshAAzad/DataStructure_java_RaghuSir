@@ -21,7 +21,7 @@ public class BubbleUpSortingTechnique {
     }
 
     private static void bubbleUpSort(int[] x) {
-        for (int i = 0; i < x.length; i++) {
+        for (int i = 0; i < x.length-1; i++) {
             for (int j = 0; j < x.length - 1 - i; j++) {
                 if (x[j] > x[j + 1]) {
                     int temp = x[j];
