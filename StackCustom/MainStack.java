@@ -18,5 +18,6 @@ public class MainStack {
         System.out.println(ms.search(34)); // 1
         System.out.println(ms.search(56)); // 2
         System.out.println(ms.search(24)); // 3
+        System.out.println(ms.empty());
     }
 }

@@ -55,4 +55,11 @@ public class MyStack {
         }
         return 0;
     }
+
+    public boolean empty() {
+        if (top == -1)
+            return true;
+        else
+            return false;
+    }
 }
