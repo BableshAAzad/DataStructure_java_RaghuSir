@@ -1,4 +1,4 @@
-package CollectionsClasses.StackImplimentationSingleLinkedList;
+package CollectionsClasses.StackImplementationSingleLinkedList;
 
 public class MainStackSingleLinkedList {
     public static void main(String[] args) {

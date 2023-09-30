@@ -1,4 +1,4 @@
-package CollectionsClasses.StackImplimentationSingleLinkedList;
+package CollectionsClasses.StackImplementationSingleLinkedList;
 
 public class MyStackSingleLinkedList {
     class Node {
