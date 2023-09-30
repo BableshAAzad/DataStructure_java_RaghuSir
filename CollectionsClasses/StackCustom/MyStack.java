@@ -1,4 +1,4 @@
-package StackCustom;
+package CollectionsClasses.StackCustom;
 
 public class MyStack {
     int capacity, top;

@@ -1,4 +1,4 @@
-package QueueCustom;
+package CollectionsClasses.QueueCustom;
 
 public class MyQue2 {
     Object[] obj;
