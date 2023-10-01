@@ -45,21 +45,21 @@ public class MyTree {
     public void display() {
         System.out.println("---------inOrder----------");
         inOrder(root);
-        // System.out.println("\n---------preOrder---------");
-        // preOrder(root);
-        // System.out.println("\n---------postOrder--------");
-        // postOrder(root);
+        System.out.println("\n---------preOrder---------");
+        preOrder(root);
+        System.out.println("\n---------postOrder--------");
+        postOrder(root);
     }
 
     // --------------------------
     void inOrder(Node rt) {
         if (rt == null)
             return;
-        System.err.print(rt.data + " ");
+        // System.err.print(rt.data + " ");
         inOrder(rt.left);
         System.out.print(rt.data + " ");
         inOrder(rt.right);
-        System.err.print(rt.data + " ");
+        // System.err.print(rt.data + " ");
     }
 
     // --------------------------
