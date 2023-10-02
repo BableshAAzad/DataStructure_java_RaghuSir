@@ -1,4 +1,4 @@
-package StringIsBalancedOrNot;
+package QuestionsJava.StringIsBalancedOrNot;
 
 import java.util.Scanner;
 import java.util.Stack;

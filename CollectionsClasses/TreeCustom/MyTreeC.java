@@ -1,18 +1,16 @@
 package CollectionsClasses.TreeCustom;
 
 public class MyTreeC {
-    Object data;
     class Node {
-        Object right, left;
-
-        Node(Object data) {
-            this.data = data;
+        int key;
+        Node left, right;
+     
+        public Node(int item)
+        {
+            key = item;
+            left = right = null;
         }
     }
 
-    boolean add(Object data) {
-        if (this.data.compareTo(data) == 0) {
-            return false;
-        }
-    }
+  
 }
