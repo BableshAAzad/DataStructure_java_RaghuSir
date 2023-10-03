@@ -1,4 +1,4 @@
-package Recursion.Examples.GCD;
+package Recursion.GCD;
 
 import java.util.Scanner;
 

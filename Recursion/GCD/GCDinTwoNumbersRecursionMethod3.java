@@ -1,8 +1,8 @@
-package Recursion.Examples.LCM;
+package Recursion.GCD;
 
 import java.util.Scanner;
 
-public class LCMinTwoNumbersRecursionMethod3 {
+public class GCDinTwoNumbersRecursionMethod3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter first number : ");
@@ -10,19 +10,15 @@ public class LCMinTwoNumbersRecursionMethod3 {
         System.out.println("Enter second number : ");
         int b = sc.nextInt();
         sc.close();
-        int cg = isLCMtwoNo(a, b);
+        int cg = isGCDtwoNo(a, b);
         System.out.println("Here " + cg + " is a Greatest Common Diviser of both number");
     }
 
-    private static int isLCMtwoNo(int a, int b) {
+    private static int isGCDtwoNo(int a, int b) {
         if (a > b)
-            return isLCMtwoNo(b, a);
-        return isLCMtwoNo(a, b, b);
-    }
-
-    private static int isLCMtwoNo(int x, int y, int prod) {
-        if (prod % x == 0)
-            return prod;
-        return isLCMtwoNo(x, y, prod + y);
+            return isGCDtwoNo(b, a);
+        if (b % a == 0)
+            return a;
+        return isGCDtwoNo(b % a, a);
     }
 }

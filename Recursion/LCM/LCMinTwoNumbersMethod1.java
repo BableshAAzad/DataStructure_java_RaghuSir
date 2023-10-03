@@ -1,8 +1,8 @@
-package Recursion.Examples.LCM;
+package Recursion.LCM;
 
 import java.util.Scanner;
 
-public class LCMinTwoNumbersMethod2 {
+public class LCMinTwoNumbersMethod1 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter first number : ");
@@ -17,11 +17,10 @@ public class LCMinTwoNumbersMethod2 {
     private static int isLCMtwoNo(int a, int b) {
         int x = (a < b) ? a : b;
         int y = (a > b) ? a : b;
-        int prod = y;
-        while (true) {
-            if (prod % x == 0)
-                return prod;
-            prod = prod + y;
+        for (int i = 1;; i++) {
+            if (y * i % x == 0)
+                return y * i;
         }
     }
+
 }
