@@ -1,4 +1,4 @@
-package CollectionsClasses.QuestionsCollections;
+package CollectionsClasses.QuestionsCollections.PrimeNumberOrNot;
 
 import java.util.ArrayList;
 import java.util.Scanner;
