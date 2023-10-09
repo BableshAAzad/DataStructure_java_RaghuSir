@@ -26,6 +26,7 @@ public class MainListToArray {
          */
         String[] str = names.toArray(new String[0]);
         System.out.println(Arrays.toString(str));
+        System.out.println(str.length); // 7
         // [Lalita, Bablesh, AAzad, Chaturvedani, Kajol, Ashwani, Durgesh]
     }
 }
