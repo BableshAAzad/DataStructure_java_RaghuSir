@@ -1,3 +1,4 @@
+package Practice;
 public class Practice2 {
     int age;
     
