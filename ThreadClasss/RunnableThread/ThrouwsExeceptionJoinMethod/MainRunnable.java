@@ -1,4 +1,4 @@
-package ThreadClasss.RunnableThread.ThrouwsExeceptionEx;
+package ThreadClasss.RunnableThread.ThrouwsExeceptionJoinMethod;
 
 public class MainRunnable {
     public static void main(String[] args) throws Exception {
