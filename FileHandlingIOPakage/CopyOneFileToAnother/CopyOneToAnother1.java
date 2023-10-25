@@ -1,9 +1,9 @@
-package FileHandlingIOPakage.ReadMultipleFileAndConvertSingleFile;
+package FileHandlingIOPakage.CopyOneFileToAnother;
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-public class ReadMuxFileAndConVertSingle {
+public class CopyOneToAnother1 {
     public static void main(String[] args) throws Exception {
         FileInputStream fin = new FileInputStream(
                 "D:\\a. programming\\java\\BableshWorkSpace\\DataStructure_java_RaghuSir\\FileHandlingIOPakage\\AAzadData\\RawData\\BableshDetails.txt");

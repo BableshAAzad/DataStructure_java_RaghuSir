@@ -3,7 +3,7 @@ package FileHandlingIOPakage.CopyOneFileToAnother;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 
-public class CopyOneToAnother {
+public class CopyOneToAnotherAndPrint {
     public static void main(String[] args) throws Exception {
         FileInputStream fin = new FileInputStream(
                 "D:\\a. programming\\java\\BableshWorkSpace\\DataStructure_java_RaghuSir\\FileHandlingIOPakage\\AAzadData\\WriteData\\WtiteDemo.txt");
