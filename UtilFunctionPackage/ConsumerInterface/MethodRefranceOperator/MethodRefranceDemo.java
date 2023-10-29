@@ -1,4 +1,4 @@
-package ConsumerInterface.MethodRefranceOperator;
+package UtilFunctionPackage.ConsumerInterface.MethodRefranceOperator;
 
 import java.util.*;
 import java.util.function.Consumer;

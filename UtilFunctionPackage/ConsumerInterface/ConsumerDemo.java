@@ -1,4 +1,4 @@
-package ConsumerInterface;
+package UtilFunctionPackage.ConsumerInterface;
 
 import java.util.*;
 import java.util.function.Consumer;
