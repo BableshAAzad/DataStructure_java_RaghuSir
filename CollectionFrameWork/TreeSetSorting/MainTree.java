@@ -1,4 +1,4 @@
-package CollectionFrameWork.TreeSetSorting;
+package collectionFrameWork.TreeSetSorting;
 
 import java.util.*;
 

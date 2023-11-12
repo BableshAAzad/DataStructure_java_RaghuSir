@@ -1,4 +1,4 @@
-package CollectionFrameWork.ArrayToListConversion;
+package collectionFrameWork.ArrayToListConversion;
 
 import java.util.*;
 

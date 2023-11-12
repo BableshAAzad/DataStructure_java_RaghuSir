@@ -1,4 +1,4 @@
-package CollectionFrameWork.QueueClass;
+package collectionFrameWork.QueueClass;
 
 // import java.util.Collections; Collections.reverseOrder()
 import java.util.PriorityQueue;
