@@ -4,9 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 class Demo1 {
-
-    Demo1() throws Exception {
-
+       static int a;
+    Demo1(int a) {
+        this.a = a;
+        System.out.println(a);
     }
 
     final void m1() {
@@ -24,7 +25,7 @@ class Demo1 {
 
 class Demo2 extends Demo1 {
     Demo2() throws Exception {
-        super();
+        super(10);
     }
 
     void m() {
@@ -46,16 +47,18 @@ public class Demo {
         // Demo1 d1 = new Demo1();
         // d1.m2(); // Not possible to access
         // ^ --------------------------------------------
-        System.out.println("hi");
-        try {
-            System.out.println(10 / 0);
-        } 
-        catch (Throwable e) {
-            e.printStackTrace();
-        }
-         finally {
+        // System.out.println("hi");
+        // try {
+        //     System.out.println(10 / 0);
+        // } 
+        // catch (Throwable e) {
+        //     e.printStackTrace();
+        // }
+        //  finally {
             // System.out.println(10 / 0);
-        }
-        System.out.println("Hi");
+        // }
+        // System.out.println("Hi");
+        Demo1 d1 = new Demo1(20);
+        System.out.println(d1.a + "hi");
     }
 }
