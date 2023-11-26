@@ -46,7 +46,6 @@ public class Demo {
         // Demo1 d1 = new Demo1();
         // d1.m2(); // Not possible to access
         // ^ --------------------------------------------
-        HashMap
         System.out.println("hi");
         try {
             System.out.println(10 / 0);
